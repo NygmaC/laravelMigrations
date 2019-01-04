@@ -12,5 +12,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+        // O seeder serve para inserir valores em uma tabela
+        //preparar a tabela para o desenvolveodr
+        $this->call(CategoriasSeeder::class);
     }
 }
